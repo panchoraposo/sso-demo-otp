@@ -1,8 +1,8 @@
 {
   "name": "app-vue",
-  "description": "Sample application vue app secured with keycloak",
+  "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "akoserwa <akoserwa@redhat.com>",
+  "author": "Francisco Raposo <fraposo@redhat.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -10,10 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "keycloak-js": "^11.0.3",
-    "vue": "^2.5.11",
-    "vue-logger": "0.0.4",
-    "vuejs-logger": "^1.5.5"
+    "vue": "^2.5.11"
   },
   "browserslist": [
     "> 1%",

@@ -1,6 +1,6 @@
 # app-vue
 
-> Sample application vue app secured with keycloak
+> A Vue.js project
 
 ## Build Setup
 
