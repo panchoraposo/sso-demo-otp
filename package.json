@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --no-open -host 0.0.0.0 --hot",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --no-open --host 0.0.0.0 --hot",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
