@@ -50,6 +50,8 @@ module.exports = {
     noInfo: true,
     open: false,
     overlay: true,
+    host: '0.0.0.0',
+    useLocalIp: true,
     port: 3000
   },
   performance: {
