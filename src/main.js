@@ -6,7 +6,7 @@ import * as Keycloak from 'keycloak-js';
 Vue.use(VueLogger);
 
 let initOptions = {
-  url: 'http://localhost:8080/auth', realm: 'sso-demo', clientId: 'app-vue', onLoad: 'login-required'
+  url: 'https://keycloak-sso.apps.rosa-79t82.4ubw.p1.openshiftapps.com/auth', realm: 'sso-demo', clientId: 'app-vue', onLoad: 'login-required'
 }
 
 let keycloak = Keycloak(initOptions);

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/hudbay-logo.png">
+    <img src="./assets/uantofa.png">
     <h1>{{ msg }}</h1>
     <h2>User: {{keycloak.idTokenParsed.preferred_username}}</h2>
     <div>
